@@ -20,8 +20,6 @@
 - [Autor](#autor)
 - [Referencias](#referencias)
 
-___
-
 ## Objetivo
 
 Redacción del objetivo del trabajo o texto que describe a la tarea (_según sea el caso_).
@@ -184,7 +182,7 @@ o en caso de tratarse de un equipo
 
 <a id="1">[1]</a>  I.A. Glover and P.M. Grant, Digital Communications, 3rd ed.  Harlow: Prentice Hall, 2009. 
 
-<a id="2">[2]</a>  H.-L. Pham, V. Perdereau, B. Adorno, en P. Fraisse, “Position and Orientation Control of Robot Manipulators Using Dual Quaternion Feedback”, 11 2010, bll 658–663. [vínculo](https://www.researchgate.net/publication/224200087_Position_and_Orientation_Control_of_Robot_Manipulators_Using_Dual_Quaternion_Feedback) 
+<a id="2">[2]</a>  H.-L. Pham, V. Perdereau, B. Adorno, en P. Fraisse, “Position and Orientation Control of Robot Manipulators Using Dual Quaternion Feedback”, 11 2010, bll 658–663. <https://www.researchgate.net/publication/224200087_Position_and_Orientation_Control_of_Robot_Manipulators_Using_Dual_Quaternion_Feedback>
 
 **Nota**:
 
