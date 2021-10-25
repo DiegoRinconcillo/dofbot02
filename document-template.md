@@ -72,6 +72,7 @@ Imágenes
 Ejemplo de la estructura del directorios del repositorio: 
 
 Proyecto de **ROS** con los directorios **adicionales** para almacenar **imágenes** y **documentos** referentes al **proyecto**.
+
 **Nota:** La estructura mostrada representa -en su mayoría- a los directorios más usados dentro de un proyecto de **ROS**.
 
 
