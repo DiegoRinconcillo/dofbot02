@@ -1,9 +1,6 @@
 # [Título del trabajo/tarea/(módulo del proyecto)] 
 
 
-
-
-
 | Código | Description |
 | ------:| ----------- |
 | ***Asignatura*** | Código del Trabajo o Número de Tarea | 
