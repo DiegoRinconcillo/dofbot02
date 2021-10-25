@@ -67,7 +67,7 @@ Bloque de cita con vínculo de referencia.
 
 Imágenes
 
-![Markdown Guide](/images/markdown-logo.png  | height=23) Markdown Guide [Basic Syntax](https://www.markdownguide.org/basic-syntax/), [Extended Syntax](https://www.markdownguide.org/extended-syntax/)
+![Markdown Guide](/images/markdown-logo.png) Markdown Guide [Basic Syntax](https://www.markdownguide.org/basic-syntax/), [Extended Syntax](https://www.markdownguide.org/extended-syntax/)
 
 Ejemplo de la estructura del directorios del repositorio: 
 
