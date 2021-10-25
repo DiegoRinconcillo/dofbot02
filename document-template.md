@@ -191,6 +191,5 @@ o en caso de tratarse de un equipo
 > para el formato de referencia estilo **IEEE**.
 > 
 > ```text
-> [Num ref] Iniciales del autor. Apellido del autor, Título del libro, edicion (si no es la primera).
-> Lugar de publicación: Publicador, Año.
+> [Num ref] Iniciales del autor. Apellido del autor, Título del libro, edicion (si no es la primera). Lugar de publicación: Publicador, Año.
 > ```
