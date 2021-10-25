@@ -6,10 +6,10 @@
 
 | Código | Description |
 | ------:| ----------- |
-| ***Asignatura***, | Código del Trabajo o Número de Tarea | 
-| **TSR-2022-I** - | Tarea *01 ... n* |
-| **Robotica-2022-I** -  | Tarea *01 ... n* |
-| **IT102321-C002** - | Sistema Ciber-Físico - Proyecto - Módulo |
+| ***Asignatura*** | Código del Trabajo o Número de Tarea | 
+| **TSR-2022-I** | Tarea *01 ... n* |
+| **Robotica-2022-I**  | Tarea *01 ... n* |
+| **IT102321-C002** | Sistema Ciber-Físico - Proyecto - Módulo |
 
 ## Contenido
 
@@ -67,7 +67,7 @@ Bloque de cita con vínculo de referencia.
 
 Imágenes
 
-![Markdown Guide](/images/markdown-logo.png) Markdown Guide [Basic Syntax](https://www.markdownguide.org/basic-syntax/), [Extended Syntax](https://www.markdownguide.org/extended-syntax/)
+![Markdown Guide](/images/markdown-logo.png) Markdown Guide [Basic Syntax](https://www.markdownguide.org/basic-syntax/ | height=23), [Extended Syntax](https://www.markdownguide.org/extended-syntax/)
 
 Ejemplo de la estructura del directorios del repositorio: 
 
