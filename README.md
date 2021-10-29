@@ -184,7 +184,7 @@ n_{y} & o_{y} & a_{y}\\
 n_{z} & o_{z} & a_{z}
 \end{bmatrix}
 ```
-![Ecuacion 01](https://latex.codecogs.com/svg.image?\mathbb{R}&space;\&space;=\&space;\begin{bmatrix}n&space;&&space;o&space;&&space;a\end{bmatrix}&space;\&space;=\&space;\begin{bmatrix}n_{x}&space;&&space;o_{x}&space;&&space;a_{x}\\n_{y}&space;&&space;o_{y}&space;&&space;a_{y}\\n_{z}&space;&&space;o_{z}&space;&&space;a_{z}\end{bmatrix}" title="\mathbb{R} \ =\ \begin{bmatrix}n & o & a\end{bmatrix} \ =\ \begin{bmatrix}n_{x} & o_{x} & a_{x}\\n_{y} & o_{y} & a_{y}\\n_{z} & o_{z} & a_{z}\end{bmatrix})
+![Ecuacion 01](https://latex.codecogs.com/svg.image?\mathbb{R}&space;\&space;=\&space;\begin{bmatrix}n&space;&&space;o&space;&&space;a\end{bmatrix}&space;\&space;=\&space;\begin{bmatrix}n_{x}&space;&&space;o_{x}&space;&&space;a_{x}\\n_{y}&space;&&space;o_{y}&space;&&space;a_{y}\\n_{z}&space;&&space;o_{z}&space;&&space;a_{z}\end{bmatrix})
 
 Youtube videos
 
