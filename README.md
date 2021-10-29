@@ -149,42 +149,42 @@ var foo = function (bar) {
 console.log(foo(5));
 ```
 
-Ecuaciones
+Ecuaciones se debe usar CodeCogs [editor de equaciones](https://latex.codecogs.com/)
 
-$\displaystyle  \begin{array}{{>{\displaystyle}l}}
+* Estándard:
+
+```LaTeX
+\sum_{\forall i}{x_i^{2}}
+```
+
+![\sum_{\forall i}{x_i^{2}}](https://latex.codecogs.com/svg.latex?%5Csum_%7B%5Cforall+i%7D%7Bx_i%5E%7B2%7D%7D)
+
+* Fórmula multi-línea:
+
+```LaTeX
+\newline
+2 + 2 = 4 \newline
+2 + 3 = 5 \newline
+\frac{2}{4} = 0.5
+```
+
+![\newline
+2 + 2 = 4 \newline
+2 + 3 = 5 \newline
+\frac{2}{4} = 0.5](https://latex.codecogs.com/svg.latex?\inline&space;\newline&space;2&space;&plus;&space;2&space;=&space;4&space;\newline&space;2&space;&plus;&space;3&space;=&space;5&space;\newline&space;\frac{2}{4}&space;=&space;0.5)
+
+Ejemplos:
+
+```LaTex
 \mathbb{R} \ =\ \begin{bmatrix}
 n & o & a
 \end{bmatrix} \ =\ \begin{bmatrix}
 n_{x} & o_{x} & a_{x}\\
 n_{y} & o_{y} & a_{y}\\
 n_{z} & o_{z} & a_{z}
-\end{bmatrix}\\
-\\
-\begin{bmatrix}
-n & o & a & p
-\end{bmatrix} =\ \begin{bmatrix}
-n_{x} & o_{x} & a_{x} & p_{x}\\
-n_{y} & o_{y} & a_{y} & p_{y}\\
-n_{z} & o_{z} & a_{z} & p_{z}
-\end{bmatrix}\\
-\\
-T\ =\begin{bmatrix}
-n_{x} & o_{x} & a_{x} & p_{x}\\
-n_{y} & o_{y} & a_{y} & p_{y}\\
-n_{z} & o_{z} & a_{z} & p_{z}\\
-0 & 0 & 0 & 1
-\end{bmatrix}\\
-\\
-\\
-T\ =\ \begin{bmatrix}
-R_{3x3} & P_{3x1}\\
-0_{1x3} & 1_{1x1}
-\end{bmatrix}\\
-\\
-\\
-\\
-\end{array}$
-
+\end{bmatrix}
+```
+[!Ecuacion 01](https://latex.codecogs.com/svg.image?\mathbb{R}&space;\&space;=\&space;\begin{bmatrix}n&space;&&space;o&space;&&space;a\end{bmatrix}&space;\&space;=\&space;\begin{bmatrix}n_{x}&space;&&space;o_{x}&space;&&space;a_{x}\\n_{y}&space;&&space;o_{y}&space;&&space;a_{y}\\n_{z}&space;&&space;o_{z}&space;&&space;a_{z}\end{bmatrix})
 
 Youtube videos
 
