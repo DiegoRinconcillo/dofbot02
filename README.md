@@ -185,13 +185,19 @@ n_{z} & o_{z} & a_{z}
 \end{bmatrix}
 ```
 
-Con fondo transparente
+![Ecuacion 1](https://latex.codecogs.com/svg.image?%5Cmathbb%7BR%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn%20&%20o%20&%20a%5Cend%7Bbmatrix%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn_%7Bx%7D%20&%20o_%7Bx%7D%20&%20a_%7Bx%7D%5C%5Cn_%7By%7D%20&%20o_%7By%7D%20&%20a_%7By%7D%5C%5Cn_%7Bz%7D%20&%20o_%7Bz%7D%20&%20a_%7Bz%7D%5Cend%7Bbmatrix%7D)
 
-![Ecuacion 01](https://latex.codecogs.com/svg.image?%5Cmathbb%7BR%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn%20&%20o%20&%20a%5Cend%7Bbmatrix%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn_%7Bx%7D%20&%20o_%7Bx%7D%20&%20a_%7Bx%7D%5C%5Cn_%7By%7D%20&%20o_%7By%7D%20&%20a_%7By%7D%5C%5Cn_%7Bz%7D%20&%20o_%7Bz%7D%20&%20a_%7Bz%7D%5Cend%7Bbmatrix%7D)
+```LaTex
+\begin{bmatrix}
+n & o & a & p
+\end{bmatrix} =\ \begin{bmatrix}
+n_{x} & o_{x} & a_{x} & p_{x}\\
+n_{y} & o_{y} & a_{y} & p_{y}\\
+n_{z} & o_{z} & a_{z} & p_{z}
+\end{bmatrix}
+```
 
-Con fondo blanco
-
-![Ecuacion 1 (fondo blanco](https://latex.codecogs.com/svg.image?%5Cbg_white%20%5Cmathbb%7BR%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn%20&%20o%20&%20a%5Cend%7Bbmatrix%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn_%7Bx%7D%20&%20o_%7Bx%7D%20&%20a_%7Bx%7D%5C%5Cn_%7By%7D%20&%20o_%7By%7D%20&%20a_%7By%7D%5C%5Cn_%7Bz%7D%20&%20o_%7Bz%7D%20&%20a_%7Bz%7D%5Cend%7Bbmatrix%7D)
+![Ecuacion 2](https://latex.codecogs.com/svg.image?%5Cbegin%7Bbmatrix%7Dn%20&%20o%20&%20a%20&%20p%5Cend%7Bbmatrix%7D%20=%5C%20%5Cbegin%7Bbmatrix%7Dn_%7Bx%7D%20&%20o_%7Bx%7D%20&%20a_%7Bx%7D%20&%20p_%7Bx%7D%5C%5Cn_%7By%7D%20&%20o_%7By%7D%20&%20a_%7By%7D%20&%20p_%7By%7D%5C%5Cn_%7Bz%7D%20&%20o_%7Bz%7D%20&%20a_%7Bz%7D%20&%20p_%7Bz%7D%5Cend%7Bbmatrix%7D)
 
 Youtube videos
 
