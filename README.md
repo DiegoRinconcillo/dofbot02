@@ -149,7 +149,7 @@ var foo = function (bar) {
 console.log(foo(5));
 ```
 
-Ecuaciones se debe usar CodeCogs [editor de equaciones](https://latex.codecogs.com/)
+Ecuaciones se debe usar CodeCogs [editor de equaciones](https://latex.codecogs.com/), [Documentación](https://editor.codecogs.com/docs/)
 
 * Estándard:
 
@@ -184,7 +184,14 @@ n_{y} & o_{y} & a_{y}\\
 n_{z} & o_{z} & a_{z}
 \end{bmatrix}
 ```
+
+Con fondo transparente
+
 ![Ecuacion 01](https://latex.codecogs.com/svg.image?%5Cmathbb%7BR%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn%20&%20o%20&%20a%5Cend%7Bbmatrix%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn_%7Bx%7D%20&%20o_%7Bx%7D%20&%20a_%7Bx%7D%5C%5Cn_%7By%7D%20&%20o_%7By%7D%20&%20a_%7By%7D%5C%5Cn_%7Bz%7D%20&%20o_%7Bz%7D%20&%20a_%7Bz%7D%5Cend%7Bbmatrix%7D)
+
+Con fondo blanco
+
+![Ecuacion 1 (fondo blanco](https://latex.codecogs.com/svg.image?%5Cbg_white%20%5Cmathbb%7BR%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn%20&%20o%20&%20a%5Cend%7Bbmatrix%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn_%7Bx%7D%20&%20o_%7Bx%7D%20&%20a_%7Bx%7D%5C%5Cn_%7By%7D%20&%20o_%7By%7D%20&%20a_%7By%7D%5C%5Cn_%7Bz%7D%20&%20o_%7Bz%7D%20&%20a_%7Bz%7D%5Cend%7Bbmatrix%7D)
 
 Youtube videos
 
