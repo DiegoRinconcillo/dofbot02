@@ -149,33 +149,41 @@ var foo = function (bar) {
 console.log(foo(5));
 ```
 
-Ecuaciones se debe usar CodeCogs [editor de equaciones](https://latex.codecogs.com/), [Documentación](https://editor.codecogs.com/docs/)
+**Ecuaciones**
 
-* Estándard:
+Hay dos modos en los que representaremos ecuaciones matemáticas en Github - Markdown:
+- Localmente (con MathJax y SVG relativo), y ...
+- De forma remota (con el servidor de renderizado LaTeX de GitHub).
 
-```LaTeX
-\sum_{\forall i}{x_i^{2}}
+En realidad, esto es un truco. GitHub **no representará ecuaciones LaTeX** dentro de lugares normales como GitHub README, pero puede representarlas en cuadernos de Jupyter, por lo que aprovechamos esta función, utilizando el servidor de representación de ecuaciones de GitHub para incrustar ecuaciones SVG (formato gráfico vectorial) en GitHub. (Consulte aquí para obtener más detalles: [un truco para mostrar fórmulas LaTeX en GitHub markdown](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)).
+
+Básicamente, podemos convertir una ecuación matemática estándar de LaTeX como la _Distribución Normal Gaussiana_...
+
+```latex
+$$
+P(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{\frac{-(x-\mu)^2}{2\sigma^2}}
+$$
+```
+a una etiqueta de imagen renderizada con la ayuda del servidor de renderizado matemático de GitHub:
+
+```html
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=P(x)%20%3D%20%5Cfrac%7B1%7D%7B%5Csigma%5Csqrt%7B2%5Cpi%7D%7D%20e%5E%7B%5Cfrac%7B-(x-%5Cmu)%5E2%7D%7B2%5Csigma%5E2%7D%7D"></div>
+```
+<div align="center"><img style="background: white;" src="https://latex.codecogs.com/svg.latex?P(x)%20%3D%20%5Cfrac%7B1%7D%7B%5Csigma%5Csqrt%7B2%5Cpi%7D%7D%20e%5E%7B%5Cfrac%7B-(x-%5Cmu)%5E2%7D%7B2%5Csigma%5E2%7D%7D"></div>
+
+Además del servidor de renderizado de GitHub, también agregamos soporte para el servidor de renderizado de [CodeCogs](https://latex.codecogs.com/), [documentación](https://editor.codecogs.com/docs/):
+
+```html
+<div align="center"><img style="background: white;" src="https://latex.codecogs.com/svg.latex?P(x)%20%3D%20%5Cfrac%7B1%7D%7B%5Csigma%5Csqrt%7B2%5Cpi%7D%7D%20e%5E%7B%5Cfrac%7B-(x-%5Cmu)%5E2%7D%7B2%5Csigma%5E2%7D%7D"></div>
 ```
 
-![\sum_{\forall i}{x_i^{2}}](https://latex.codecogs.com/svg.latex?%5Csum_%7B%5Cforall+i%7D%7Bx_i%5E%7B2%7D%7D)
+<div align="center"><img style="background: white;" src="https://latex.codecogs.com/svg.latex?P(x)%20%3D%20%5Cfrac%7B1%7D%7B%5Csigma%5Csqrt%7B2%5Cpi%7D%7D%20e%5E%7B%5Cfrac%7B-(x-%5Cmu)%5E2%7D%7B2%5Csigma%5E2%7D%7D"></div>
 
-* Fórmula multi-línea:
-
-```LaTeX
-\newline
-2 + 2 = 4 \newline
-2 + 3 = 5 \newline
-\frac{2}{4} = 0.5
-```
-
-![\newline
-2 + 2 = 4 \newline
-2 + 3 = 5 \newline
-\frac{2}{4} = 0.5](https://latex.codecogs.com/svg.latex?\inline&space;\newline&space;2&space;&plus;&space;2&space;=&space;4&space;\newline&space;2&space;&plus;&space;3&space;=&space;5&space;\newline&space;\frac{2}{4}&space;=&space;0.5)
+Para más información, puedes consultar ["_VS Code Math to Image: Write LaTeX Math Equations in GitHub Markdown the Easy Way!_"](https://medium.com/spencerweekly/vs-code-math-to-image-write-latex-math-equations-in-github-markdown-the-easy-way-9fa8b81dc910), o su [repositorio](https://github.com/TeamMeow/vscode-math-to-image#readme) de GitHub.
 
 Ejemplos:
 
-```LaTex
+```latex
 \mathbb{R} \ =\ \begin{bmatrix}
 n & o & a
 \end{bmatrix} \ =\ \begin{bmatrix}
@@ -185,19 +193,21 @@ n_{z} & o_{z} & a_{z}
 \end{bmatrix}
 ```
 
+Forma 1, usando _div_:
+
+<div align="center"><img style="background: white;" src="https://latex.codecogs.com/svg.image?%5Cmathbb%7BR%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn%20&%20o%20&%20a%5Cend%7Bbmatrix%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn_%7Bx%7D%20&%20o_%7Bx%7D%20&%20a_%7Bx%7D%5C%5Cn_%7By%7D%20&%20o_%7By%7D%20&%20a_%7By%7D%5C%5Cn_%7Bz%7D%20&%20o_%7Bz%7D%20&%20a_%7Bz%7D%5Cend%7Bbmatrix%7D"></div>
+
+Forma 2, usando sintaxis de _img_ markdown: 
+
 ![Ecuacion 1](https://latex.codecogs.com/svg.image?%5Cmathbb%7BR%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn%20&%20o%20&%20a%5Cend%7Bbmatrix%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn_%7Bx%7D%20&%20o_%7Bx%7D%20&%20a_%7Bx%7D%5C%5Cn_%7By%7D%20&%20o_%7By%7D%20&%20a_%7By%7D%5C%5Cn_%7Bz%7D%20&%20o_%7Bz%7D%20&%20a_%7Bz%7D%5Cend%7Bbmatrix%7D)
 
-```LaTex
-\begin{bmatrix}
-n & o & a & p
-\end{bmatrix} =\ \begin{bmatrix}
-n_{x} & o_{x} & a_{x} & p_{x}\\
-n_{y} & o_{y} & a_{y} & p_{y}\\
-n_{z} & o_{z} & a_{z} & p_{z}
-\end{bmatrix}
-```
+Ejemplo de inserción de funcion en texto con referencia bibliográfica:
 
-![Ecuacion 2](https://latex.codecogs.com/svg.image?%5Cbegin%7Bbmatrix%7Dn%20&%20o%20&%20a%20&%20p%5Cend%7Bbmatrix%7D%20=%5C%20%5Cbegin%7Bbmatrix%7Dn_%7Bx%7D%20&%20o_%7Bx%7D%20&%20a_%7Bx%7D%20&%20p_%7Bx%7D%5C%5Cn_%7By%7D%20&%20o_%7By%7D%20&%20a_%7By%7D%20&%20p_%7By%7D%5C%5Cn_%7Bz%7D%20&%20o_%7Bz%7D%20&%20a_%7Bz%7D%20&%20p_%7Bz%7D%5Cend%7Bbmatrix%7D)
+**Convertir un cuaternión en una matriz de rotación**
+
+Dado un cuaternión <img style="background: white;" src="https://latex.codecogs.com/svg.image?%5Cinline%20q%20=%20%5Cleft%20(%20q_%7B0%7D,%20q_%7B1%7Di,%20q_%7B2%7Dj,%20q_%7B3%7Dk%20%5Cright%20)%20">, puede encontrar la matriz de rotación tridimensional correspondiente utilizando la siguiente fórmula.
+
+<div align="center"><img style="background: white;" src="https://latex.codecogs.com/svg.image?%5Cmathbb%7BR%7D%5Cleft%20(%20Q%20%5Cright%20)=%20%5Cbegin%7Bbmatrix%7D%202%5Cleft%20(%20q_%7B0%7D%5E%7B2%7D%20&plus;%20q_%7B1%7D%5E%7B2%7D%20%5Cright%20)%20-%201&%202%5Cleft%20(%20q_%7B1%7Dq_%7B2%7D%20-%20%20q_%7B0%7Dq_%7B3%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B1%7Dq_%7B3%7D%20&plus;%20%20q_%7B0%7Dq_%7B2%7D%20%5Cright%20)%20%5C%5C2%5Cleft%20(%20q_%7B1%7Dq_%7B2%7D%20&plus;%20%20q_%7B0%7Dq_%7B3%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B0%7D%5E%7B2%7D%20&plus;%20q_%7B2%7D%5E%7B2%7D%20%5Cright%20)%20-%201%20&%202%5Cleft%20(%20q_%7B2%7Dq_%7B3%7D%20-%20%20q_%7B0%7Dq_%7B1%7D%20%5Cright%20)%20%5C%5C2%5Cleft%20(%20q_%7B1%7Dq_%7B3%7D%20-%20%20q_%7B0%7Dq_%7B2%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B2%7Dq_%7B3%7D%20&plus;%20%20q_%7B0%7Dq_%7B1%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B0%7D%5E%7B2%7D%20&plus;%20q_%7B3%7D%5E%7B2%7D%20%5Cright%20)%20-%201%20%5C%5C%5Cend%7Bbmatrix%7D"></div>
 
 Youtube videos
 
@@ -231,6 +241,8 @@ o en caso de tratarse de un equipo
 <a id="1">[1]</a>  I.A. Glover and P.M. Grant, Digital Communications, 3rd ed.  Harlow: Prentice Hall, 2009. 
 
 <a id="2">[2]</a>  H.-L. Pham, V. Perdereau, B. Adorno, en P. Fraisse, “Position and Orientation Control of Robot Manipulators Using Dual Quaternion Feedback”, 11 2010, bll 658–663. <https://www.researchgate.net/publication/224200087_Position_and_Orientation_Control_of_Robot_Manipulators_Using_Dual_Quaternion_Feedback>
+
+<a id='3'>[3]</a>	J. B. Kuipers, [Quaternions and rotation sequences](https://amzn.to/2RY2lwI). Princeton, NJ: Princeton University Press, 2002. (Chapter 5,  Section 5.14 “Quaternions to Matrices”, pg. 125)
 
 **Nota**:
 
