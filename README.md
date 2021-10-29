@@ -205,15 +205,11 @@ Ejemplo de inserción de funcion en texto con referencia bibliográfica:
 
 **Convertir un cuaternión en una matriz de rotación**
 
-Dado un cuaternión <img style="background: white;" src="https://latex.codecogs.com/svg.image?%5Cinline%20q%20=%20%5Cleft%20(%20q_%7B0%7D,%20q_%7B1%7Di,%20q_%7B2%7Dj,%20q_%7B3%7Dk%20%5Cright%20)%20">, puede encontrar la matriz de rotación tridimensional correspondiente utilizando la siguiente fórmula.
+Dado un cuaternión <img style="background: white;" src="https://latex.codecogs.com/svg.image?%5Cinline%20q%20=%20%5Cleft%20(%20q_%7B0%7D,%20q_%7B1%7Di,%20q_%7B2%7Dj,%20q_%7B3%7Dk%20%5Cright%20)%20">, puede encontrar la matriz de rotación tridimensional correspondiente utilizando la siguiente fórmula [[2]](#2). **<- referencia insertada**
 
 <div align="center"><img src="https://latex.codecogs.com/svg.image?%5Cmathbb%7BR%7D%5Cleft%20(%20Q%20%5Cright%20)=%20%5Cbegin%7Bbmatrix%7D%202%5Cleft%20(%20q_%7B0%7D%5E%7B2%7D%20&plus;%20q_%7B1%7D%5E%7B2%7D%20%5Cright%20)%20-%201&%202%5Cleft%20(%20q_%7B1%7Dq_%7B2%7D%20-%20%20q_%7B0%7Dq_%7B3%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B1%7Dq_%7B3%7D%20&plus;%20%20q_%7B0%7Dq_%7B2%7D%20%5Cright%20)%20%5C%5C2%5Cleft%20(%20q_%7B1%7Dq_%7B2%7D%20&plus;%20%20q_%7B0%7Dq_%7B3%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B0%7D%5E%7B2%7D%20&plus;%20q_%7B2%7D%5E%7B2%7D%20%5Cright%20)%20-%201%20&%202%5Cleft%20(%20q_%7B2%7Dq_%7B3%7D%20-%20%20q_%7B0%7Dq_%7B1%7D%20%5Cright%20)%20%5C%5C2%5Cleft%20(%20q_%7B1%7Dq_%7B3%7D%20-%20%20q_%7B0%7Dq_%7B2%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B2%7Dq_%7B3%7D%20&plus;%20%20q_%7B0%7Dq_%7B1%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B0%7D%5E%7B2%7D%20&plus;%20q_%7B3%7D%5E%7B2%7D%20%5Cright%20)%20-%201%20%5C%5C%5Cend%7Bbmatrix%7D"></div>
 
-**Nota**: Para los que usamos el thema obscuro de GitHub las imágenes no se visualizac correctamente ya que la fuente es color negro sobre fondo transparente, la solución es presentar la ecuación como png de la siguiente manera:
-
-**usando _div_ con fondo y margen**:
-
-<div align="center" style="padding:10px;"><img style="background: whitesmoke; padding: 10px;" src="https://latex.codecogs.com/svg.image?%5Cbg_white%20%5Cmathbb%7BR%7D%5Cleft%20(%20Q%20%5Cright%20)=%20%5Cbegin%7Bbmatrix%7D%202%5Cleft%20(%20q_%7B0%7D%5E%7B2%7D%20&plus;%20q_%7B1%7D%5E%7B2%7D%20%5Cright%20)%20-%201&%202%5Cleft%20(%20q_%7B1%7Dq_%7B2%7D%20-%20%20q_%7B0%7Dq_%7B3%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B1%7Dq_%7B3%7D%20&plus;%20%20q_%7B0%7Dq_%7B2%7D%20%5Cright%20)%20%5C%5C2%5Cleft%20(%20q_%7B1%7Dq_%7B2%7D%20&plus;%20%20q_%7B0%7Dq_%7B3%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B0%7D%5E%7B2%7D%20&plus;%20q_%7B2%7D%5E%7B2%7D%20%5Cright%20)%20-%201%20&%202%5Cleft%20(%20q_%7B2%7Dq_%7B3%7D%20-%20%20q_%7B0%7Dq_%7B1%7D%20%5Cright%20)%20%5C%5C2%5Cleft%20(%20q_%7B1%7Dq_%7B3%7D%20-%20%20q_%7B0%7Dq_%7B2%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B2%7Dq_%7B3%7D%20&plus;%20%20q_%7B0%7Dq_%7B1%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B0%7D%5E%7B2%7D%20&plus;%20q_%7B3%7D%5E%7B2%7D%20%5Cright%20)%20-%201%20%5C%5C%5Cend%7Bbmatrix%7D"/></div>
+**Nota**: Para los que usamos el thema obscuro de GitHub las imágenes no se visualizan correctamente ya que la fuente es color negro sobre fondo transparente, la solución es presentar la ecuación como png de la siguiente manera:
 
 ```html
 <div align="center"><img src="https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cbg_white%20%5Cmathbb%7BR%7D%5Cleft%20(%20Q%20%5Cright%20)=%20%5Cbegin%7Bbmatrix%7D%202%5Cleft%20(%20q_%7B0%7D%5E%7B2%7D%20&plus;%20q_%7B1%7D%5E%7B2%7D%20%5Cright%20)%20-%201&%202%5Cleft%20(%20q_%7B1%7Dq_%7B2%7D%20-%20%20q_%7B0%7Dq_%7B3%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B1%7Dq_%7B3%7D%20&plus;%20%20q_%7B0%7Dq_%7B2%7D%20%5Cright%20)%20%5C%5C2%5Cleft%20(%20q_%7B1%7Dq_%7B2%7D%20&plus;%20%20q_%7B0%7Dq_%7B3%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B0%7D%5E%7B2%7D%20&plus;%20q_%7B2%7D%5E%7B2%7D%20%5Cright%20)%20-%201%20&%202%5Cleft%20(%20q_%7B2%7Dq_%7B3%7D%20-%20%20q_%7B0%7Dq_%7B1%7D%20%5Cright%20)%20%5C%5C2%5Cleft%20(%20q_%7B1%7Dq_%7B3%7D%20-%20%20q_%7B0%7Dq_%7B2%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B2%7Dq_%7B3%7D%20&plus;%20%20q_%7B0%7Dq_%7B1%7D%20%5Cright%20)%20&%202%5Cleft%20(%20q_%7B0%7D%5E%7B2%7D%20&plus;%20q_%7B3%7D%5E%7B2%7D%20%5Cright%20)%20-%201%20%5C%5C%5Cend%7Bbmatrix%7D"></div>
@@ -233,7 +229,7 @@ Conclusiones o cierre al trabajo realizado.
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
 vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet [[2]](#2). **<- referencia insertada en el párrafo** . 
+no sea takimata sanctus est Lorem ipsum dolor sit amet [[3]](#3). **<- referencia insertada en el párrafo** . 
 
 ## Autor
 
@@ -253,9 +249,9 @@ o en caso de tratarse de un equipo
 
 <a id="1">[1]</a>  I.A. Glover and P.M. Grant, Digital Communications, 3rd ed.  Harlow: Prentice Hall, 2009. 
 
-<a id="2">[2]</a>  H.-L. Pham, V. Perdereau, B. Adorno, en P. Fraisse, “Position and Orientation Control of Robot Manipulators Using Dual Quaternion Feedback”, 11 2010, bll 658–663. <https://www.researchgate.net/publication/224200087_Position_and_Orientation_Control_of_Robot_Manipulators_Using_Dual_Quaternion_Feedback>
+<a id='2'>[2]</a>	J. B. Kuipers, [Quaternions and rotation sequences](https://amzn.to/2RY2lwI). Princeton, NJ: Princeton University Press, 2002. (Chapter 5,  Section 5.14 “Quaternions to Matrices”, pg. 125)
 
-<a id='3'>[3]</a>	J. B. Kuipers, [Quaternions and rotation sequences](https://amzn.to/2RY2lwI). Princeton, NJ: Princeton University Press, 2002. (Chapter 5,  Section 5.14 “Quaternions to Matrices”, pg. 125)
+<a id="3">[3]</a>  H.-L. Pham, V. Perdereau, B. Adorno, en P. Fraisse, “Position and Orientation Control of Robot Manipulators Using Dual Quaternion Feedback”, 11 2010, bll 658–663. <https://www.researchgate.net/publication/224200087_Position_and_Orientation_Control_of_Robot_Manipulators_Using_Dual_Quaternion_Feedback>
 
 **Nota**:
 
