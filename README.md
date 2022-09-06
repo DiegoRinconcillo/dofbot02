@@ -128,8 +128,11 @@ Proyecto de **ROS** con los directorios **adicionales** para almacenar **imágen
     ├── CMakeLists.txt
     ├── LICENSE.md
     ├── Otros-archivos-generales.txt
-    └── Readme.md
+    └── README.md
 ```
+
+El color de fondo debe ser `#ffffff` para el modo claro y `#0d1117` para el modo oscuro.
+
 
 ***Bloques de código***
 
@@ -291,7 +294,7 @@ Para conocer más acerca del formato de **Markdown** con la personalización de 
     Listado de referencias documentales consultadas para realizar el trabajo, consultar el siguiente [vínculo](https://www.bath.ac.uk/publications/library-guides-to-citing-referencing/attachments/ieee-style-guide.pdf) para el formato de referencia estilo **IEEE**.
     > `[^Num Ref]` Iniciales del autor. Apellido del autor, Título del libro, edicion (si no es la primera).
 	>
-    >    Lugar de publicación: Publicador, Año.
+    > Lugar de publicación: Publicador, Año.
 
 [^1]: I.A. Glover and P.M. Grant, Digital Communications, 3rd ed. Harlow: Prentice Hall, 2009. 
 
