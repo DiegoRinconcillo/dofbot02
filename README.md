@@ -254,17 +254,45 @@ o en caso de tratarse de un equipo
 
 ## Referencias
 
-**Nota**:
+Se pueden agregar notas al pie (cómo pudiste notar en las líneas marcadas como *"nota al pie insertada"*) en este documento, utilizando la siguiente sintaxis de corchetes:
+
+```text
+	Esta es una nota al pie sencilla[^1].
+
+	Una nota al pie también puede tener míltiples líneas multiple lines[^2].  
+
+	También puede usar palabras, para adaptarse mejor a su estilo de escritura.[^nota].
+
+	[^1]: I.A. Glover and P.M. Grant, Digital Communications, 3rd ed. Harlow: Prentice Hall, 2009.
+	[^2]: . B. Kuipers, [Quaternions and rotation sequences](https://amzn.to/2RY2lwI). 
+	  Princeton, NJ: Princeton University Press, 2002. (Chapter 5,  Section 5.14 “Quaternions to Matrices”, pg. 125)
+  
+	Tome en cuenta que cada línea nueva debe ir precedida de 2 espacios, permitiendo tener una nota al pie con varias líneas.
+	
+	[^nota]:
+		Las notas al pie de página identificadas con nombre aún se representarán con números en lugar del texto pero, permitirán una identificación y vinculación más sencillas.
+		Esta nota al pie también se ha realizado con una sintaxis diferente, usando 4 espacios en lugar de 2 para cada línea nueva.
+```
+
+Para el desarrollo de documentos dentr del grupo se usa el formato **IEEE**.[^nota]
+
+> **_Nota:_**: La posición de una nota al pie en tu archivo con lenguaje de marcado no influencia la nota al pie que se interpretará. 
+> Puedes escribir una nota al pie después de referenciarla y esta aún se interpretará en la parte inferior del archivo con lenguaje de marcado.
+>
+> No hay compatibilidad con notas al pie en los wikis.
+
+
+
+[^nota]:
     Listado de referencias documentales consultadas para realizar el trabajo:
     consultar el siguiente [vínculo](https://www.bath.ac.uk/publications/library-guides-to-citing-referencing/attachments/ieee-style-guide.pdf) para el formato de referencia estilo **IEEE**.
     ```text
-    [^Num ref] Iniciales del autor. Apellido del autor, Título del libro, edicion (si no es la primera). 
-    Lugar de publicación: Publicador, Año.
+    [^Num Ref] Iniciales del autor. Apellido del autor, Título del libro, edicion (si no es la primera). 
+      Lugar de publicación: Publicador, Año.
     ```
 
 
-[^1]: I.A. Glover and P.M. Grant, Digital Communications, 3rd ed.  
-  Harlow: Prentice Hall, 2009. 
+[^1]: I.A. Glover and P.M. Grant, Digital Communications, 3rd ed. Harlow: Prentice Hall, 2009. 
 
 [^2]: J. B. Kuipers, [Quaternions and rotation sequences](https://amzn.to/2RY2lwI). 
   Princeton, NJ: Princeton University Press, 2002. (Chapter 5,  Section 5.14 “Quaternions to Matrices”, pg. 125)
