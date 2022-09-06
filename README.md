@@ -163,7 +163,7 @@ La representación de expresiones matemáticas está disponible en Propuestas de
 
 Para incluir una expresión matemática en línea con su texto, delimite la expresión con un símbolo de dólar $.
 
-El siguiente ejemplo muestra como se visualiza la expresión `$\sqrt{3x-1}+(1+x)^2$` 
+El siguiente ejemplo muestra como se visualiza la expresión `$\sqrt{3x-1}+(1+x)^2$` dentro de una cita:
 
 > Esta oración usa delimitadores `$` para mostrar matemáticas en línea: $\sqrt{3x-1}+(1+x)^2$
 
@@ -182,24 +182,7 @@ Se visualiza como:
 $$ P(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{\frac{-(x-\mu)^2}{2\sigma^2}} $$
 
 
-a una etiqueta de imagen renderizada con la ayuda del servidor de renderizado matemático de GitHub:
-
-```html
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=P(x)%20%3D%20%5Cfrac%7B1%7D%7B%5Csigma%5Csqrt%7B2%5Cpi%7D%7D%20e%5E%7B%5Cfrac%7B-(x-%5Cmu)%5E2%7D%7B2%5Csigma%5E2%7D%7D"></div>
-```
-<div align="center"><img style="background: white;" src="https://latex.codecogs.com/svg.latex?P(x)%20%3D%20%5Cfrac%7B1%7D%7B%5Csigma%5Csqrt%7B2%5Cpi%7D%7D%20e%5E%7B%5Cfrac%7B-(x-%5Cmu)%5E2%7D%7B2%5Csigma%5E2%7D%7D"></div>
-
-Además del servidor de renderizado de GitHub, también agregamos soporte para el servidor de renderizado de [CodeCogs](https://latex.codecogs.com/), [documentación](https://editor.codecogs.com/docs/):
-
-```html
-<div align="center"><img style="background: white;" src="https://latex.codecogs.com/svg.latex?P(x)%20%3D%20%5Cfrac%7B1%7D%7B%5Csigma%5Csqrt%7B2%5Cpi%7D%7D%20e%5E%7B%5Cfrac%7B-(x-%5Cmu)%5E2%7D%7B2%5Csigma%5E2%7D%7D"></div>
-```
-
-<div align="center"><img style="background: white;" src="https://latex.codecogs.com/svg.latex?P(x)%20%3D%20%5Cfrac%7B1%7D%7B%5Csigma%5Csqrt%7B2%5Cpi%7D%7D%20e%5E%7B%5Cfrac%7B-(x-%5Cmu)%5E2%7D%7B2%5Csigma%5E2%7D%7D"></div>
-
-Para más información, puedes consultar ["_VS Code Math to Image: Write LaTeX Math Equations in GitHub Markdown the Easy Way!_"](https://medium.com/spencerweekly/vs-code-math-to-image-write-latex-math-equations-in-github-markdown-the-easy-way-9fa8b81dc910), o su [repositorio](https://github.com/TeamMeow/vscode-math-to-image#readme) de GitHub.
-
-Ejemplos:
+Otros ejemplos:
 
 ```latex
 \mathbb{R} \ =\ \begin{bmatrix}
@@ -211,13 +194,17 @@ n_{z} & o_{z} & a_{z}
 \end{bmatrix}
 ```
 
-Forma 1, usando _div_:
+se visualiza como:
 
-<div align="center"><img style="background: white;" src="https://latex.codecogs.com/svg.image?%5Cmathbb%7BR%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn%20&%20o%20&%20a%5Cend%7Bbmatrix%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn_%7Bx%7D%20&%20o_%7Bx%7D%20&%20a_%7Bx%7D%5C%5Cn_%7By%7D%20&%20o_%7By%7D%20&%20a_%7By%7D%5C%5Cn_%7Bz%7D%20&%20o_%7Bz%7D%20&%20a_%7Bz%7D%5Cend%7Bbmatrix%7D"></div>
-
-Forma 2, usando sintaxis de _img_ markdown: 
-
-![Ecuacion 1](https://latex.codecogs.com/svg.image?%5Cmathbb%7BR%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn%20&%20o%20&%20a%5Cend%7Bbmatrix%7D%20%5C%20=%5C%20%5Cbegin%7Bbmatrix%7Dn_%7Bx%7D%20&%20o_%7Bx%7D%20&%20a_%7Bx%7D%5C%5Cn_%7By%7D%20&%20o_%7By%7D%20&%20a_%7By%7D%5C%5Cn_%7Bz%7D%20&%20o_%7Bz%7D%20&%20a_%7Bz%7D%5Cend%7Bbmatrix%7D)
+$$
+\mathbb{R} \ =\ \begin{bmatrix}
+n & o & a
+\end{bmatrix} \ =\ \begin{bmatrix}
+n_{x} & o_{x} & a_{x}\\
+n_{y} & o_{y} & a_{y}\\
+n_{z} & o_{z} & a_{z}
+\end{bmatrix}
+$$
 
 Ejemplo de inserción de funcion en texto con referencia bibliográfica:
 
