@@ -149,21 +149,35 @@ var foo = function (bar) {
 console.log(foo(5));
 ```
 
-**Ecuaciones**
+**Expresiones Matemáticas**
 
-Hay dos modos en los que representaremos ecuaciones matemáticas en Github - Markdown:
-- Localmente (con MathJax y SVG relativo), y ...
-- De forma remota (con el servidor de renderizado LaTeX de GitHub).
+Para permitir una comunicación clara de expresiones matemáticas, GitHub admite expresiones matemáticas con formato LaTeX dentro de Markdown. Para obtener más información, consulte [LaTeX/Mathematics](http://en.wikibooks.org/wiki/LaTeX/Mathematics) en Wikibooks.
 
-En realidad, esto es un truco. GitHub **no representará ecuaciones LaTeX** dentro de lugares normales como GitHub README, pero puede representarlas en cuadernos de Jupyter, por lo que aprovechamos esta función, utilizando el servidor de representación de ecuaciones de GitHub para incrustar ecuaciones SVG (formato gráfico vectorial) en GitHub. (Consulte aquí para obtener más detalles: [un truco para mostrar fórmulas LaTeX en GitHub markdown](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)).
+La capacidad de representación matemática de GitHub usa MathJax; un motor de visualización de código abierto basado en JavaScript. MathJax admite una amplia gama de macros LaTeX y varias extensiones de accesibilidad útiles. Para obtener más información, consulte [la documentación de MathJax](http://docs.mathjax.org/en/latest/input/tex/index.html#tex-and-latex-support) y la [documentación de extensiones de accesibilidad de MathJax](https://mathjax.github.io/MathJax-a11y/docs/#reader-guide).
 
-Básicamente, podemos convertir una ecuación matemática estándar de LaTeX como la _Distribución Normal Gaussiana_...
+La representación de expresiones matemáticas está disponible en Propuestas de GitHub, discusiones de GitHub, solicitudes de incorporación de cambios, wikis y archivos Markdown.
+
+
+**Escribir expresiones en línea**
+---
+
+Para incluir una expresión matemática en línea con su texto, delimite la expresión con un símbolo de dólar $.
+
+El siguiente ejemplo muestra como se visualiza la expresión `$\sqrt{3x-1}+(1+x)^2$` 
+
+> Esta oración usa delimitadores `$` para mostrar matemáticas en línea: $\sqrt{3x-1}+(1+x)^2$
+
+
+**Escribir expresiones como bloque**
+---
+
+Para agregar una expresión matemática como un bloque, comience una nueva línea y delimite la expresión con dos símbolos de dólar $$.
 
 ```latex
-$$
-P(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{\frac{-(x-\mu)^2}{2\sigma^2}}
-$$
+$$ P(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{\frac{-(x-\mu)^2}{2\sigma^2}} $$
 ```
+
+Se visualiza como:
 
 $$ P(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{\frac{-(x-\mu)^2}{2\sigma^2}} $$
 
