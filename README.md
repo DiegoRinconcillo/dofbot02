@@ -262,10 +262,9 @@ o en caso de tratarse de un equipo
 [^3]: H.-L. Pham, V. Perdereau, B. Adorno, en P. Fraisse, “Position and Orientation Control of Robot Manipulators Using Dual Quaternion Feedback”, 11 2010, bll 658–663. <https://www.researchgate.net/publication/224200087_Position_and_Orientation_Control_of_Robot_Manipulators_Using_Dual_Quaternion_Feedback>
 
 [^Nota]:
-	Listado de referencias documentales consultadas para realizar el trabajo:
+	Listado de referencias documentales consultadas para realizar el trabajo:<br/>
 	consultar el siguiente [vínculo](https://www.bath.ac.uk/publications/library-guides-to-citing-referencing/attachments/ieee-style-guide.pdf)
-	para el formato de referencia estilo **IEEE**.
-
+	para el formato de referencia estilo **IEEE**.<br/>
 	```text
 		[^Num ref] Iniciales del autor. Apellido del autor, Título del libro, edicion (si no es la primera). 
 		Lugar de publicación: Publicador, Año.
