@@ -131,9 +131,6 @@ Proyecto de **ROS** con los directorios **adicionales** para almacenar **imágen
     └── README.md
 ```
 
-El color de fondo debe ser `#ffffff` para el modo claro y `#0d1117` para el modo oscuro.
-
-
 ***Bloques de código***
 
 Bloques de código "cercados"
