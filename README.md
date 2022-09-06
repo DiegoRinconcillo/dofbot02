@@ -276,7 +276,7 @@ Tome en cuenta que cada línea nueva debe ir precedida de 2 espacios, permitiend
 
 **Notas**
 
-Para el desarrollo de documentos dentr del grupo se usa el formato **IEEE**.[^nota] ← ***insertada al pie del documento con el no. 4***
+Para el desarrollo de documentos dentro del grupo y la asignatura, se usa el formato **IEEE**.[^nota] ← ***insertada al pie del documento con el no. 4***
 
 **Nota simple** insertada en la posición del texto dónde se introdujo.
 
@@ -285,7 +285,7 @@ Para el desarrollo de documentos dentr del grupo se usa el formato **IEEE**.[^no
 >
 > No hay compatibilidad con notas al pie en los wikis.
 
-
+Para conocer más acerca del formato de **Markdown** con la personalización de GitHub se pude consultar la [documentación de GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github).
 
 [^nota]:
     Listado de referencias documentales consultadas para realizar el trabajo, consultar el siguiente [vínculo](https://www.bath.ac.uk/publications/library-guides-to-citing-referencing/attachments/ieee-style-guide.pdf) para el formato de referencia estilo **IEEE**.
