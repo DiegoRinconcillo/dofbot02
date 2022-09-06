@@ -285,15 +285,13 @@ Para el desarrollo de documentos dentro del grupo y la asignatura, se usa el for
 >
 > No hay compatibilidad con notas al pie en los wikis.
 
-!!! Para conocer más acerca del formato de **Markdown** con la personalización de GitHub se pude consultar la [documentación de GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github).
+Para conocer más acerca del formato de **Markdown** con la personalización de GitHub se pude consultar la [documentación de GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github).
 
 [^nota]:
     Listado de referencias documentales consultadas para realizar el trabajo, consultar el siguiente [vínculo](https://www.bath.ac.uk/publications/library-guides-to-citing-referencing/attachments/ieee-style-guide.pdf) para el formato de referencia estilo **IEEE**.
-    <div class="extended-markdown note border rounded-1 mb-4 p-3 color-border-accent-emphasis color-bg-accent f5">
-	<p><strong>`[^Num Ref]`</strong></p>
-	<p>Iniciales del autor. Apellido del autor, Título del libro, edicion (si no es la primera).</p>
-    <p>Lugar de publicación: Publicador, Año.</p>
-    </div>
+    > `[^Num Ref]` Iniciales del autor. Apellido del autor, Título del libro, edicion (si no es la primera).
+    >    Lugar de publicación: Publicador, Año.
+    >
 
 [^1]: I.A. Glover and P.M. Grant, Digital Communications, 3rd ed. Harlow: Prentice Hall, 2009. 
 
