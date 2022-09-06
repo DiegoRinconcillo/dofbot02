@@ -58,7 +58,7 @@ Bloque de cita con vínculo de referencia.
 > tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
 >
 > At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-> no sea takimata sanctus est Lorem ipsum dolor sit amet [^1]. **← referencia insertada** 
+> no sea takimata sanctus est Lorem ipsum dolor sit amet[^1]. ← ***referencia insertada*** 
 
 vinculo a otro [documento](/docs/document-template.md) en el repositorio (_ruta relativa_).
 
@@ -212,7 +212,7 @@ Ejemplo de inserción de **expresiones matemáticas** dentro del **texto de una 
 
 **Convertir un cuaternión en una matriz de rotación**
 
-> Dado un cuaternión $q=( q_{0} ,\ q_{1} i,\ q_{2} j,\ q_{3} k) \ $, puede encontrar la matriz de rotación tridimensional correspondiente utilizando la siguiente fórmula [^2]. **← referencia insertada**
+> Dado un cuaternión $q=( q_{0} ,\ q_{1} i,\ q_{2} j,\ q_{3} k) \ $, puede encontrar la matriz de rotación tridimensional correspondiente utilizando la siguiente fórmula[^2]. ← ***referencia insertada***
 >
 > $$
 > \begin{equation}
@@ -236,7 +236,7 @@ Conclusiones o cierre al trabajo realizado.
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
 vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet [^3]. **← referencia insertada en el párrafo** . 
+no sea takimata sanctus est Lorem ipsum dolor sit amet[^3]. ← ***referencia insertada en el párrafo***. 
 
 ## Autor
 
@@ -256,15 +256,15 @@ o en caso de tratarse de un equipo
 
 _Referencia simple_
 
-[^1] I.A. Glover and P.M. Grant, Digital Communications, 3rd ed.  Harlow: Prentice Hall, 2009. 
+[^1]: I.A. Glover and P.M. Grant, Digital Communications, 3rd ed.  Harlow: Prentice Hall, 2009. 
 
 _Referencia con vínculo insertado en el título del libro_
 
-[^2] J. B. Kuipers, [Quaternions and rotation sequences](https://amzn.to/2RY2lwI). Princeton, NJ: Princeton University Press, 2002. (Chapter 5,  Section 5.14 “Quaternions to Matrices”, pg. 125)
+[^2]: J. B. Kuipers, [Quaternions and rotation sequences](https://amzn.to/2RY2lwI). Princeton, NJ: Princeton University Press, 2002. (Chapter 5,  Section 5.14 “Quaternions to Matrices”, pg. 125)
 
 _Referencia con url externo visible_
 
-[^3] H.-L. Pham, V. Perdereau, B. Adorno, en P. Fraisse, “Position and Orientation Control of Robot Manipulators Using Dual Quaternion Feedback”, 11 2010, bll 658–663. <https://www.researchgate.net/publication/224200087_Position_and_Orientation_Control_of_Robot_Manipulators_Using_Dual_Quaternion_Feedback>
+[^3]: H.-L. Pham, V. Perdereau, B. Adorno, en P. Fraisse, “Position and Orientation Control of Robot Manipulators Using Dual Quaternion Feedback”, 11 2010, bll 658–663. <https://www.researchgate.net/publication/224200087_Position_and_Orientation_Control_of_Robot_Manipulators_Using_Dual_Quaternion_Feedback>
 
 **Nota**:
 
