@@ -280,10 +280,8 @@ Para el desarrollo de documentos dentro del grupo y la asignatura, se usa el for
 
 **Nota simple** insertada en la posición del texto dónde se introdujo.
 
-> **_Nota:_** La posición de una nota al pie en tu archivo con lenguaje de marcado no influencia la nota al pie que se interpretará. 
-> Puedes escribir una nota al pie después de referenciarla y esta aún se interpretará en la parte inferior del archivo con lenguaje de marcado.
->
-> No hay compatibilidad con notas al pie en los wikis.
+> **_Nota:_** La posición de una nota al pie en el archivo de markdown no influencia el cómo se interpretará la nota al pie. 
+> Se puede escribir una nota al pie inmediatamente después de insertar la referenciarla y aún así **se mostrará en la parte inferior del archivo**.
 
 Para conocer más acerca del formato de **Markdown** con la personalización de GitHub se pude consultar la [documentación de GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github).
 
