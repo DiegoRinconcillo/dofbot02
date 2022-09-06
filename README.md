@@ -274,9 +274,13 @@ Se pueden agregar notas al pie (cómo pudiste notar en las líneas marcadas como
 		Esta nota al pie también se ha realizado con una sintaxis diferente, usando 4 espacios en lugar de 2 para cada línea nueva.
 ```
 
-Para el desarrollo de documentos dentr del grupo se usa el formato **IEEE**.[^nota]
+**Notas**
 
-> **_Nota:_**: La posición de una nota al pie en tu archivo con lenguaje de marcado no influencia la nota al pie que se interpretará. 
+Para el desarrollo de documentos dentr del grupo se usa el formato **IEEE**.[^nota] ← ***insertada al pie del documento con el no. 4***
+
+**Nota simple** insertada en la posición del texto dónde se introdujo.
+
+> **_Nota:_** La posición de una nota al pie en tu archivo con lenguaje de marcado no influencia la nota al pie que se interpretará. 
 > Puedes escribir una nota al pie después de referenciarla y esta aún se interpretará en la parte inferior del archivo con lenguaje de marcado.
 >
 > No hay compatibilidad con notas al pie en los wikis.
@@ -284,8 +288,7 @@ Para el desarrollo de documentos dentr del grupo se usa el formato **IEEE**.[^no
 
 
 [^nota]:
-    Listado de referencias documentales consultadas para realizar el trabajo:
-    consultar el siguiente [vínculo](https://www.bath.ac.uk/publications/library-guides-to-citing-referencing/attachments/ieee-style-guide.pdf) para el formato de referencia estilo **IEEE**.
+    Listado de referencias documentales consultadas para realizar el trabajo, consultar el siguiente [vínculo](https://www.bath.ac.uk/publications/library-guides-to-citing-referencing/attachments/ieee-style-guide.pdf) para el formato de referencia estilo **IEEE**.
     ```text
     [^Num Ref] Iniciales del autor. Apellido del autor, Título del libro, edicion (si no es la primera). 
       Lugar de publicación: Publicador, Año.
@@ -297,6 +300,7 @@ Para el desarrollo de documentos dentr del grupo se usa el formato **IEEE**.[^no
 [^2]: J. B. Kuipers, [Quaternions and rotation sequences](https://amzn.to/2RY2lwI). 
   Princeton, NJ: Princeton University Press, 2002. (Chapter 5,  Section 5.14 “Quaternions to Matrices”, pg. 125)
 
-[^3]: H.-L. Pham, V. Perdereau, B. Adorno, en P. Fraisse, “Position and Orientation Control of Robot Manipulators Using Dual Quaternion Feedback”, 11 2010, bll 658–663. 
+[^3]: H.-L. Pham, V. Perdereau, B. Adorno, en P. Fraisse, 
+  “Position and Orientation Control of Robot Manipulators Using Dual Quaternion Feedback”, 11 2010, bll 658–663. 
   <https://www.researchgate.net/publication/224200087_Position_and_Orientation_Control_of_Robot_Manipulators_Using_Dual_Quaternion_Feedback>
 
