@@ -290,8 +290,8 @@ Para conocer más acerca del formato de **Markdown** con la personalización de 
 [^nota]:
     Listado de referencias documentales consultadas para realizar el trabajo, consultar el siguiente [vínculo](https://www.bath.ac.uk/publications/library-guides-to-citing-referencing/attachments/ieee-style-guide.pdf) para el formato de referencia estilo **IEEE**.
     > `[^Num Ref]` Iniciales del autor. Apellido del autor, Título del libro, edicion (si no es la primera).
+	>
     >    Lugar de publicación: Publicador, Año.
-    >
 
 [^1]: I.A. Glover and P.M. Grant, Digital Communications, 3rd ed. Harlow: Prentice Hall, 2009. 
 
