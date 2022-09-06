@@ -211,7 +211,7 @@ Ejemplo de inserción de **expresiones matemáticas** dentro del **texto de una 
 
 **Convertir un cuaternión en una matriz de rotación**
 
-> Dado un cuaternión $ q=(q_{0}, q_{1} i, q_{2} j, q_{3} k)$, puede encontrar la matriz de rotación tridimensional correspondiente utilizando la siguiente fórmula[^2]. ← ***nota al pie insertada***
+> Dado un cuaternión $ q=( q_{0} ,\ q_{1} i,\ q_{2} j,\ q_{3} k) $, puede encontrar la matriz de rotación tridimensional correspondiente utilizando la siguiente fórmula[^2]. ← ***nota al pie insertada***
 >
 > $$
 > \begin{equation}
